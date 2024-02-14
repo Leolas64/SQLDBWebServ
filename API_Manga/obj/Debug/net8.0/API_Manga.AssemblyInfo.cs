@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Manga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbccdad2cb65c239d11f55224fd246121458735a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4a7c7ccfc16c822daed2d378b57e9df3e456a9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Manga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Manga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using API_Manga.Data;
+using API_Manga.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
+
 
 namespace API_Manga.Controllers
 {
@@ -14,31 +21,94 @@ namespace API_Manga.Controllers
             _logger = logger;
         }
 
-        //[HttpGet(Name = "GetManga")]
-        //public IEnumerable<Manga> Get()
-        //{
-        //    return Enumerable.Range(1, 5).Select(index => new Manga
-        //    {
-        //        dateSortieProchainTome = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-        //        nom = "Berserk",
-        //        nbTomes = 42,
-        //        etatAvancement = "Dernier tome sortie --> 41 + 41 collector"
-        //    })
-        //    .ToArray();
-        //}
 
-
-        [HttpGet(Name = "api-manga/v1/{manga}")]
-        public IEnumerable<Manga> Get(int id, string nom, int tomes, string avancement)
+        [Route("api/[controller]")]
+        [ApiController]
+        public class API : ControllerBase
         {
-            Manga m1 = new Manga(1, "Berserk", 41, "Tome 42 en édition");
-            Manga m2 = new Manga(2, "Fire Punch", 8, "Manga Terminé");
-            Manga m3 = new Manga(id, nom, tomes, avancement);
+            private readonly API_MangaContext _apiMangaContext;
 
-            List<Manga> listManga = new List<Manga> { m1, m2, m3};
+            public API(API_MangaContext context)
+            {
+                _apiMangaContext = context;
+            }
 
-            return listManga;
+            [HttpGet]
+            public async Task<ActionResult<IEnumerable<Manga>>> GetMangas()
+            {
+                return await _apiMangaContext.Mangas.ToListAsync();
+            }
+
+            [HttpGet("{id}")]
+            public async Task<ActionResult<Manga>> GetMangas(int id)
+            {
+                var article = await _apiMangaContext.Mangas.FindAsync(id);
+
+                if (article == null)
+                {
+                    return NotFound();
+                }
+
+                return article;
+            }
+
+            [HttpPost]
+            public async Task<ActionResult<Manga>> PostMangas(Manga manga)
+            {
+                _apiMangaContext.Mangas.Add(manga);
+                await _apiMangaContext.SaveChangesAsync();
+
+                return CreatedAtAction("GetMangas", new { id = manga.Id }, manga);
+            }
+
+            [HttpPut("{id}")]
+            public async Task<IActionResult> PutMangas(int id, Manga manga)
+            {
+                if (id != manga.Id)
+                {
+                    return BadRequest();
+                }
+
+                _apiMangaContext.Entry(manga).State = EntityState.Modified;
+                try
+                {
+                    await _apiMangaContext.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!MangaExists(id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return NoContent();
+            }
+
+            [HttpDelete("{id}")]
+            public async Task<IActionResult> DeleteManga(int id)
+            {
+                var manga = await _apiMangaContext.Mangas.FindAsync(id);
+                if (manga == null)
+                {
+                    return NotFound();
+                }
+
+                _apiMangaContext.Mangas.Remove(manga);
+                await _apiMangaContext.SaveChangesAsync();
+
+                return NoContent();
+            }
+
+            private bool MangaExists(int id)
+            {
+                return _apiMangaContext.Mangas.Any(e => e.Id == id);
+            }
         }
+
 
     }
 }
