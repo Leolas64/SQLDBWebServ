@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\OneDrive\\Bureau\\api_manga\\API_Manga\\API_Manga.csproj": {}
+    "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_Manga\\API_Manga.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\OneDrive\\Bureau\\api_manga\\API_Manga\\API_Manga.csproj": {
+    "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_Manga\\API_Manga.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\OneDrive\\Bureau\\api_manga\\API_Manga\\API_Manga.csproj",
+        "projectUniqueName": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_Manga\\API_Manga.csproj",
         "projectName": "API_Manga",
-        "projectPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\api_manga\\API_Manga\\API_Manga.csproj",
-        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\api_manga\\API_Manga\\obj\\",
+        "projectPath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_Manga\\API_Manga.csproj",
+        "packagesPath": "C:\\Users\\Antoine\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_Manga\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Antoine\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
