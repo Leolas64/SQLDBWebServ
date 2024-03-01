@@ -21,9 +21,6 @@ namespace API_Manga.Controllers
             _logger = logger;
         }
 
-
-        [Route("api/[controller]")]
-        [ApiController]
         public class API : ControllerBase
         {
             private readonly API_MangaContext _apiMangaContext;
@@ -52,7 +49,7 @@ namespace API_Manga.Controllers
                 return article;
             }
 
-            [HttpPost]
+            [HttpPost(Name = "PostUtilisateurV2")]
             public async Task<ActionResult<Manga>> PostMangas(Manga manga)
             {
                 _apiMangaContext.Mangas.Add(manga);
