@@ -12,7 +12,6 @@ namespace API_WEB.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.HasDefaultSchema("DBManga");
         }
         public DbSet<Manga> Mangas { get; set; }
 

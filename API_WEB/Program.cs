@@ -8,10 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-//builder.Services.AddDbContext<DBContext>(options =>
-//  options.UseMySQL(builder.Configuration.GetConnectionString("MangaDbConnectionString"))
-//  );
-builder.Services.AddMySqlDataSource(builder.Configuration.GetConnectionString("MangaDbConnectionString")!);
+builder.Services.AddDbContext<DBContext>(options =>
+  options.UseMySQL(builder.Configuration.GetConnectionString("MangaDbConnectionString"))
+  );
+//builder.Services.AddMySqlDataSource(builder.Configuration.GetConnectionString("MangaDbConnectionString")!);
 
 
 

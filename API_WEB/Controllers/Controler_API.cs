@@ -10,9 +10,9 @@ namespace API_WEB.Controllers
     [ApiController]
     public class Controler_API : ControllerBase
     {
-            private readonly API_MangaContext _context;
+            private readonly DBContext _context;
 
-            public Controler_API(API_MangaContext context)
+            public Controler_API(DBContext context)
             {
                 _context = context;
             }
