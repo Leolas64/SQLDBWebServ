@@ -36,7 +36,79 @@ namespace API_WEB.Controllers
                 }
 
                 return manga;
+
             }
-        } 
+
+        // POST: api/users
+        [HttpPost]
+        public async Task<ActionResult<Manga>> PostManga(Manga manga)
+        {
+            _context.Mangas.Add(manga);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetManga), new { id = manga.Id }, manga);
+        }
+
+      
+
+        // PUT: api/users/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutManga(int id, Manga manga)
+        {
+            if (id != manga.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(manga).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!UserExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
+        // DELETE: api/users/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteManga(int id)
+        {
+            var manga = await _context.Mangas.FindAsync(id);
+            if (manga == null)
+            {
+                return NotFound();
+            }
+
+            _context.Mangas.Remove(manga);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool UserExists(int id)
+        {
+            return _context.Mangas.Any(e => e.Id == id);
+        }
+
+        // dummy method to test the connection
+        [HttpGet("hello")]
+        public string Test()
+        {
+            return "Hello World!";
+        }
+
+    } 
     }
 
