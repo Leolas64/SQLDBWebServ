@@ -1,3 +1,0 @@
-# SQLDBWebServ
-
-Readme du projet
