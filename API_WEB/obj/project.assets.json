@@ -4619,11 +4619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj",
+      "projectUniqueName": "C:\\Users\\Antoine\\Desktop\\api\\API_WEB\\API_WEB.csproj",
       "projectName": "API_WEB",
-      "projectPath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj",
+      "projectPath": "C:\\Users\\Antoine\\Desktop\\api\\API_WEB\\API_WEB.csproj",
       "packagesPath": "C:\\Users\\Antoine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\obj\\",
+      "outputPath": "C:\\Users\\Antoine\\Desktop\\api\\API_WEB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Antoine\\AppData\\Roaming\\NuGet\\NuGet.Config",

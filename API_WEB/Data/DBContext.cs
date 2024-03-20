@@ -14,6 +14,5 @@ namespace API_WEB.Data
             base.OnModelCreating(builder);
         }
         public DbSet<Manga> Mangas { get; set; }
-
     }
 }

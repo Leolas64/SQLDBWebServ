@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFlgs8Hpkx2fccq9NTdD5jvS16FkFUPuz86Drw9R/2r0DKAlj6HhYUeq4fE1L0APPh5H9TaEv3BLkTLLA+PRZQ==",
+  "dgSpecHash": "7jwgeLDjNp7yDV6u6xbOreo8fa2tdeH6U+f7zuL9AtMExB/Lb7Nm3pByBimKIErk2OvQvTUNRmVtGd7MSTCHcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj",
+  "projectFilePath": "C:\\Users\\Antoine\\Desktop\\api\\API_WEB\\API_WEB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antoine\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Antoine\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
