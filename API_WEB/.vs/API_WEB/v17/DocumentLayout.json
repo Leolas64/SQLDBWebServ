@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\classes\\api_auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:classes\\api_auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\controllers\\controler_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:controllers\\controler_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\data\\api_mangacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:data\\api_mangacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\classes\\api_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:classes\\api_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\classes\\api_dessinateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:classes\\api_dessinateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\classes\\api_tome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:classes\\api_tome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\classes\\api_genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:classes\\api_genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\classes\\api_manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:classes\\api_manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|c:\\users\\ellan\\desktop\\bdd_manga\\api_web\\api_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4EC15E2-9BFE-48E3-A3A3-5EA444967D4E}|API_WEB.csproj|solutionrelative:api_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\Classes\\SQLManga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "API_Categorie.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Categorie.cs",
+              "RelativeDocumentMoniker": "Classes\\API_Categorie.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Categorie.cs",
+              "RelativeToolTip": "Classes\\API_Categorie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:47:03.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API_Auteur.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Auteur.cs",
+              "RelativeDocumentMoniker": "Classes\\API_Auteur.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Auteur.cs",
+              "RelativeToolTip": "Classes\\API_Auteur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:47:02.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "API_Dessinateur.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Dessinateur.cs",
+              "RelativeDocumentMoniker": "Classes\\API_Dessinateur.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Dessinateur.cs",
+              "RelativeToolTip": "Classes\\API_Dessinateur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:47:01.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "API_Tome.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Tome.cs",
+              "RelativeDocumentMoniker": "Classes\\API_Tome.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Tome.cs",
+              "RelativeToolTip": "Classes\\API_Tome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:47:00.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "API_Genre.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Genre.cs",
+              "RelativeDocumentMoniker": "Classes\\API_Genre.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Genre.cs",
+              "RelativeToolTip": "Classes\\API_Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:46:58.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "API_Manga.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Manga.cs",
+              "RelativeDocumentMoniker": "Classes\\API_Manga.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Classes\\API_Manga.cs",
+              "RelativeToolTip": "Classes\\API_Manga.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:46:57.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "Data\\DBContext.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Data\\DBContext.cs",
+              "RelativeToolTip": "Data\\DBContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:45:07.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "API_MangaContext.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Data\\API_MangaContext.cs",
+              "RelativeDocumentMoniker": "Data\\API_MangaContext.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Data\\API_MangaContext.cs",
+              "RelativeToolTip": "Data\\API_MangaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:45:07.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:45:07.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Controler_API.cs",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Controllers\\Controler_API.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controler_API.cs",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Controllers\\Controler_API.cs",
+              "RelativeToolTip": "Controllers\\Controler_API.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:45:07.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-21T13:45:07.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-21T13:45:07.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SQLManga.cs",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\Classes\\SQLManga.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Antoine\\Desktop\\API_Manga\\API_WEB\\Classes\\SQLManga.cs",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\Classes\\SQLManga.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Antoine\\Desktop\\API_Manga\\API_WEB\\Classes\\SQLManga.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:45:07.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "API_WEB.csproj",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\API_WEB.csproj",
+              "RelativeDocumentMoniker": "API_WEB.csproj",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\API_WEB.csproj",
+              "RelativeToolTip": "API_WEB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-21T13:45:07.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-21T13:45:07.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

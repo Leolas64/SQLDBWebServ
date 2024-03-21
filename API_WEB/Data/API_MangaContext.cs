@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using API_WEB.Classes;
 
 namespace API_WEB.Data
 {

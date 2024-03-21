@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj": {}
+    "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\API_WEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj": {
+    "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\API_WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj",
+        "projectUniqueName": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\API_WEB.csproj",
         "projectName": "API_WEB",
-        "projectPath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\API_WEB.csproj",
-        "packagesPath": "C:\\Users\\Antoine\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antoine\\Desktop\\API_Manga\\API_WEB\\obj\\",
+        "projectPath": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\API_WEB.csproj",
+        "packagesPath": "C:\\Users\\ellan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ellan\\Desktop\\BDD_Manga\\API_WEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Antoine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ellan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -96,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

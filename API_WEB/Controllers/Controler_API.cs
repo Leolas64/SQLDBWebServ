@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using Microsoft.EntityFrameworkCore;
+using API_WEB.Classes;
 
 namespace API_WEB.Controllers
 {
