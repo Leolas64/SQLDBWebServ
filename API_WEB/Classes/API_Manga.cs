@@ -19,21 +19,25 @@ namespace API_WEB.Classes
         public DateTime? dateSortieProchainTome { get; set; }
         [Column("ID_Genre")]
         public int idG { get; set; }
-        [Column("ID_Categorie")]
-        public int idC { get; set; }
-        [Column("ID_Auteur")]
-        public int idA { get; set; }
 
-        public Manga(int id, string nom, int nbTomes, string etatAvancement, int idG, int idC, int idA)
+        public Manga(int id, string nom, int nbTomes, string etatAvancement, int idG)
         {
             Id = id;
             this.nom = nom;
             this.nbTomes = nbTomes;
             this.etatAvancement = etatAvancement;
             this.idG = idG;
-            this.idC = idC;
-            this.idA = idA;
         }
+
+
+
+
+
+
+        //public void WriteId(int id)
+        //{
+        //    _Id = id;
+        //}
     }
 }
 

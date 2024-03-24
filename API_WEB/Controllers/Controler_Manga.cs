@@ -2,17 +2,18 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using Microsoft.EntityFrameworkCore;
+using API_WEB.Classes;
 
 namespace API_WEB.Controllers
 {
 
     [Route("api/[controller]")]
     [ApiController]
-    public class Controler_API : ControllerBase
+    public class Controler_Manga : ControllerBase
     {
             private readonly DBContext _context;
 
-            public Controler_API(DBContext context)
+            public Controler_Manga(DBContext context)
             {
                 _context = context;
             }
@@ -39,6 +40,8 @@ namespace API_WEB.Controllers
 
             }
 
+
+
         // POST: api/users
         [HttpPost]
         public async Task<ActionResult<Manga>> PostManga(Manga manga)
@@ -49,7 +52,22 @@ namespace API_WEB.Controllers
             return CreatedAtAction(nameof(GetManga), new { id = manga.Id }, manga);
         }
 
-      
+
+        [HttpPost]
+        public async Task<ActionResult<Manga>> PostNewManga(Manga manga)
+        {
+            _context.Mangas.Add(manga);
+            await _context.SaveChangesAsync();
+
+            if(manga.idG == null)
+            {
+
+            }
+
+            return CreatedAtAction(nameof(GetManga), new { id = manga.Id }, manga);
+        }
+
+
 
         // PUT: api/users/5
         [HttpPut("{id}")]

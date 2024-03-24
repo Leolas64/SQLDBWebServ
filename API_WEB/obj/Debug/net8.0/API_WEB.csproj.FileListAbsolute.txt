@@ -268,3 +268,4 @@ C:\Users\Antoine\Desktop\api\API_WEB\obj\Debug\net8.0\refint\API_WEB.dll
 C:\Users\Antoine\Desktop\api\API_WEB\obj\Debug\net8.0\API_WEB.pdb
 C:\Users\Antoine\Desktop\api\API_WEB\obj\Debug\net8.0\API_WEB.genruntimeconfig.cache
 C:\Users\Antoine\Desktop\api\API_WEB\obj\Debug\net8.0\ref\API_WEB.dll
+C:\Users\Antoine\Desktop\api\API_WEB\bin\Debug\net8.0\RabbitMQ.Client.dll

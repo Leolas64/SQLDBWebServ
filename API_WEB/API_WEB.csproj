@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
+	 <NoWarn>ASP0023</NoWarn>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
     <UserSecretsId>cf986e29-f3c5-42c8-9fce-cfa7987d1e44</UserSecretsId>
@@ -34,6 +35,7 @@
     <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="MySqlConnector" Version="2.3.5" />
     <PackageReference Include="MySqlConnector.DependencyInjection" Version="2.3.5" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
