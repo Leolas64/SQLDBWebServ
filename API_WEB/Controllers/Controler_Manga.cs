@@ -53,19 +53,19 @@ namespace API_WEB.Controllers
         }
 
 
-        [HttpPost]
-        public async Task<ActionResult<Manga>> PostNewManga(Manga manga)
-        {
-            _context.Mangas.Add(manga);
-            await _context.SaveChangesAsync();
+        //[HttpPost]
+        //public async Task<ActionResult<Manga>> PostNewManga(Manga manga)
+        //{
+        //    _context.Mangas.Add(manga);
+        //    await _context.SaveChangesAsync();
 
-            if(manga.idG == null)
-            {
+        //    if(manga.idG == null)
+        //    {
 
-            }
+        //    }
 
-            return CreatedAtAction(nameof(GetManga), new { id = manga.Id }, manga);
-        }
+        //    return CreatedAtAction(nameof(GetManga), new { id = manga.Id }, manga);
+        //}
 
 
 

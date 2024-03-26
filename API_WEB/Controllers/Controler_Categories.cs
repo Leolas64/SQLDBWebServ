@@ -36,5 +36,66 @@ namespace API_WEB.Controllers
             return categorie;
 
         }
+
+        [HttpPost]
+        public async Task<ActionResult<Manga>> PostCategorie(Categorie categorie)
+        {
+            _context.Categories.Add(categorie);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetCategorie), new { nom = categorie.nom }, categorie);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCategorie (int id, Categorie categorie)
+        {
+            if (id != categorie.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(categorie).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!UserExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+
+            }
+
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCategorie(int id)
+        {
+            var categorie = await _context.Categories.FindAsync(id);
+            if (categorie == null)
+            {
+                return NotFound();
+            }
+
+            _context.Categories.Remove(categorie);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool UserExists(int id)
+        {
+            return _context.Categories.Any(e => e.Id == id);
+        }
+
     }
 }

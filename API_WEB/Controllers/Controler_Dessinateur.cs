@@ -52,5 +52,56 @@ namespace API_WEB.Controllers
             return CreatedAtAction(nameof(GetDessinateur), new { nom = dessinateur.nom }, dessinateur);
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutDessinateur(int id, Dessinateur dessinateur)
+        {
+            if (id != dessinateur.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(dessinateur).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!UserExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+
+            }
+
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteDessinateur(int id)
+        {
+            var dessinateur = await _context.Dessinateurs.FindAsync(id);
+            if (dessinateur == null)
+            {
+                return NotFound();
+            }
+
+            _context.Dessinateurs.Remove(dessinateur);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool UserExists(int id)
+        {
+            return _context.Dessinateurs.Any(e => e.Id == id);
+        }
+
     }
 }

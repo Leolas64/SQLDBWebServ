@@ -36,5 +36,70 @@ namespace API_WEB.Controllers
             return tome;
 
         }
+
+
+
+        // POST: api/users
+        [HttpPost]
+        public async Task<ActionResult<Manga>> PostTome(Tome tome)
+        {
+            _context.Tomes.Add(tome);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetTome), new { id = tome.Id }, tome);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutTome(int id, Tome tome)
+        {
+            if (id != tome.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(tome).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!UserExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+
+            }
+
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTome(int id)
+        {
+            var tome = await _context.Tomes.FindAsync(id);
+            if (tome == null)
+            {
+                return NotFound();
+            }
+
+            _context.Tomes.Remove(tome);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool UserExists(int id)
+        {
+            return _context.Tomes.Any(e => e.Id == id);
+        }
+
+
     }
 }
